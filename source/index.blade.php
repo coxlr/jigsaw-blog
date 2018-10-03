@@ -1,5 +1,5 @@
 @extends('_layouts.master')
 
 @section('body')
-<h1>Coming soon...</h1>
+<h1>@{{ test }}</h1>
 @endsection
