@@ -1,7 +1,8 @@
 @extends('_layouts.master')
 
 @section('body')
-<h1>@{{ test }}</h1>
+    <div class="flex flex-wrap flex-1 justify-center">
+<h1 class="w-full text-center">@{{ test }}</h1>
 
 <Timer 
          starttime="Oct 1, 2018 09:00:00" 
@@ -12,12 +13,13 @@
          "minutes":"Minuts",
          "seconds":"Seconds",
          "expired":"Event has been expired.",
-         "running":"Till the end of event.",
+         "running":"Till site launch.",
          "upcoming":"Till start of event.",
          "status": {
             "expired":"Expired",
-            "running":"Running",
+            "running":"In Progress",
             "upcoming":"Future"
            }}'
          ></Timer>
+    </div>
 @endsection

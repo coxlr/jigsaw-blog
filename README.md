@@ -10,7 +10,10 @@ This is a blog site template using jigsaw to create a static site while incorpor
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload
+npm run watch
+
+# build for development
 npm run dev
 
 # build for production with minification

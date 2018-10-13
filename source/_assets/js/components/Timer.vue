@@ -122,7 +122,7 @@ export default {
         }
       }
       .number{
-        background: rgba(51, 51, 51, 0.53);
+        background: #f1f5f8;//rgba(51, 51, 51, 0.53);
         padding: 0 5px;
         border-radius: 5px;
         display: inline-block;
